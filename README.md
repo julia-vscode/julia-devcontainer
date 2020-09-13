@@ -1,7 +1,4 @@
 # Julia dev container definition
-Julia dev container definitions for VS Code Remote Development / Codespaces Container.
-
----
 
 This repository contains the dev container definition for the Julia Programming language. The development container [Docker](https://www.docker.com) images contain a miminal tool/runtime stack and its prerequisites to help you get up and running with Julia development in a containerized environment.
 
