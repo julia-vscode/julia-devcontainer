@@ -17,6 +17,7 @@ function is_app()
 end
 
 if is_app()
+    Pkg.activate(pwd())
     Pkg.instantiate()    
 elseif is_package()
     Pkg.develop(path=pwd())    
