@@ -13,7 +13,7 @@ function is_package()
 end
 
 function is_app()
-    return has_project_file && has_manifest_file()
+    return has_project_file() && has_manifest_file()
 end
 
 if is_app()
