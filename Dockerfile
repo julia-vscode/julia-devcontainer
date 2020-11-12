@@ -31,3 +31,5 @@ RUN apt-get update \
 RUN mkdir -p /julia-devcontainer-scripts
 
 COPY ./postcreate.jl /julia-devcontainer-scripts
+
+RUN chmod +x /julia-devcontainer-scripts/postcreate.jl

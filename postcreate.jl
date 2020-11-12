@@ -1,3 +1,5 @@
+#!/usr/local/julia/bin/julia
+
 using Pkg
 
 function has_manifest_file()
