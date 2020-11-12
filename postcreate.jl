@@ -19,6 +19,6 @@ end
 if is_app()
     Pkg.instantiate()    
 elseif is_package()
-    Pkg.develop(pwd())    
+    Pkg.develop(path=pwd())    
 end
 	
